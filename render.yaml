@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: whisper-fastapi
+    env: docker
+    plan: free
+    dockerfilePath: ./dockerfile
+    region: oregon
