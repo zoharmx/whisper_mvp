@@ -2,10 +2,10 @@
 
 fastapi
 uvicorn[standard]
-torch==2.2.1+cpu
 openai-whisper @ git+https://github.com/openai/whisper.git
 yt-dlp
 pydub
 python-multipart
 python-dotenv
+
 
