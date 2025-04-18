@@ -21,3 +21,5 @@ async def transcribe_from_url(url: str = Form(...)):
     path = download_audio(url)
     result = transcribe_audio(path)
     return {"transcription": result}
+
+
